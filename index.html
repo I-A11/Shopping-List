@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <h2>Shopping List</h2>
+    </nav>
+    <section class="section-center">
+      <!-- grocery form -->
+      <form class="grocery-form">
+        <p class="alert"></p>
+        <h2>Grocery Items</h2>
+        <div class="form-control">
+          <input type="text" id="grocery" placeholder="e.g. Suger" />
+          <button type="submit" class="submit-btn">Submit</button>
+        </div>
+      </form>
+      <!-- items list -->
+      <div class="grocery-container">
+        <div class="grocery-list">
+          <div class="grocery-list">
+            <article class="grocery-item">
+              <p class="title">Item</p>
+              <div class="btn-container">
+                <button type="button" class="edit-btn">
+                  <i class="fas fa-edit"></i>
+                </button>
+                <button type="button" class="delete-btn">
+                  <i class="fas fa-trash"></i>
+                </button>
+              </div>
+            </article>
+          </div>
+          <!-- btuuon -->
+          <button type="button" class="clear-btn">Clear Items</button>
+        </div>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

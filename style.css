@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+  margin: 0;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #da6262;
+  height: 80px;
+  font-size: 1.5rem;
+}
+
+.section-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+}
+
+.alert {
+  margin-bottom: 1rem;
+  height: 1.25rem;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  font-size: 0.7rem;
+  border-radius: 0.25rem;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+}
+.alert-danger {
+  color: #9b1616;
+  background: #f0ebeb;
+}
+
+.alert-success {
+  color: #42d1ad;
+  background: #f0ebeb;
+}
+
+.grocery-form h2 {
+  padding-bottom: 1rem;
+  font-size: 2.2rem;
+  color: #be5656;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+#grocery {
+  width: 20rem;
+  height: 2rem;
+  border-top-left-radius: 0.3rem;
+  border-bottom-left-radius: 0.3rem;
+  border-color: #df8484;
+}
+
+.submit-btn {
+  border-style: none;
+  background: #df8484;
+  cursor: pointer;
+  border-top-right-radius: 0.3rem;
+  border-bottom-right-radius: 0.3rem;
+}
+
+.grocery-container {
+  margin-top: 2rem;
+  /* visibility: hidden; */
+}
+
+.show-container {
+  visibility: visible;
+}
+
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem;
+  text-transform: capitalize;
+}
+
+.title {
+  padding-right: 17rem;
+}
+
+.edit-btn,
+.delete-btn {
+  background: transparent;
+  border-color: transparent;
+  cursor: pointer;
+  font-size: 0.75rem;
+  margin: 0 0.15rem;
+}
+
+.edit-btn {
+  color: #6be675;
+}
+
+.delete-btn {
+  color: #c72727;
+}
+
+.clear-btn {
+  text-transform: capitalize;
+  width: 10rem;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  justify-self: center;
+  align-items: center;
+  margin-left: 6rem;
+  letter-spacing: 0.25rem;
+  font-size: 1rem;
+  background: transparent;
+  border-color: transparent;
+  color: #be5656;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+  .nav-bar {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .grocery-form h2 {
+    font-size: 1.5rem;
+  }
+  #grocery {
+    width: 15rem;
+    height: 2rem;
+  }
+  .title {
+    padding-right: 12rem;
+  }
+
+  .clear-btn {
+    text-transform: capitalize;
+    width: 8rem;
+    letter-spacing: 0.2rem;
+    font-size: 0.9rem;
+  }
+}
