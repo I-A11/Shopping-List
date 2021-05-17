@@ -13,3 +13,4 @@ Also the items will be saved in the local storage so you can keep them as you wa
 - JavaScript
 
 ![image info](./shopping list.PNG)
+
