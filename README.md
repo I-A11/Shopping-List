@@ -12,5 +12,4 @@ Also the items will be saved in the local storage so you can keep them as you wa
 - Css
 - JavaScript
 
-![image info](images/shopping list.PNG)
-
+<img src="images/shopping list.PNG">
