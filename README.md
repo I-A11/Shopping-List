@@ -12,4 +12,5 @@ Also the items will be saved in the local storage so you can keep them as you wa
 - Css
 - JavaScript
 
-![image info](./shopping list.PNG)
+![image info](shopping list.PNG)
+
